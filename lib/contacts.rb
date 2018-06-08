@@ -20,8 +20,7 @@ def remove_strawberry(contacts)
     data.each do |k, v|
            binding.pry
       if k == :favorite_ice_cream_flavors
-        v.each do |flavor|
-        flavor.delete_if{|flavor| flavor == "strawberry"}
+        v.delete_if{|flavor| flavor == "strawberry"}
           end
         end
         end
