@@ -24,6 +24,7 @@ def remove_strawberry(contacts)
             flavor.delete
           end
         end
+        end
       end
     end
   end
