@@ -21,8 +21,7 @@ def remove_strawberry(contacts)
            binding.pry
       if k == :favorite_ice_cream_flavors
         v.each do |flavor|
-          if flavor == "strawberry"
-            flavor.delete
+        flavor.delete_if{|flavor| flavor == "strawberry"}
           end
         end
         end
