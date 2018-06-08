@@ -23,8 +23,7 @@ def remove_strawberry(contacts)
         v.delete_if{|flavor| flavor == "strawberry"}
           end
         end
-        end
-    end
+      end
   end
   contacts
 
